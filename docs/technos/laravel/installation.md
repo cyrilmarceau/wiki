@@ -6,6 +6,6 @@ sidebar_position: 1
 
 ## Composer
 
-```sh
+```shell
 composer create-project laravel/laravel example-app
 ```

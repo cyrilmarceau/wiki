@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Création du model / controller / ressource
 
-```sh
+```shell
 php artisan make:model <ModelName> -mcr
 ```
 
@@ -17,13 +17,13 @@ php artisan make:model <ModelName> -mcr
 
 Supprimer les tables et re-migrer:
 
-```sh
+```shell
 php artisan migrate:fresh
 ```
 
 Supprime les tables puis recrée en ajoutant les seeders:
 
-```sh
+```shell
 php artisan migrate:refresh --seed
 ```
 
@@ -31,7 +31,7 @@ php artisan migrate:refresh --seed
 
 Si il y a un problème avec les classes:
 
-```sh
+```shell
 composer dump-autoload
 ```
 
@@ -39,24 +39,24 @@ composer dump-autoload
 
 Réinitialiser le cache de la config:
 
-```sh
+```shell
 php artisan config:clear
 ```
 
 Réinitialiser le cache de l'application:
 
-```sh
+```shell
 php artisan cache:clear
 ```
 
 Réinitialiser le cache du routeur:
 
-```sh
+```shell
 php artisan route:clear
 ```
 
 Réinitialiser le cache des vues compilé
 
-```sh
+```shell
 php artisan view:clear
 ```

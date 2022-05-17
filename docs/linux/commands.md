@@ -8,7 +8,7 @@ sidebar_position: 2
 
 CHanger le groupe d'utilisateur d'un dossier ou fichier
 
-```sh
+```shell
 sudo chown -R [USERNAME]:[USERNAME] <path>
 ```
 
@@ -16,20 +16,20 @@ sudo chown -R [USERNAME]:[USERNAME] <path>
 
 Afficher tous les membres d'un groupe
 
-```sh
+```shell
 grep ^www-data /etc/group
 ```
 
 Ajouter un utilisateur à un groupe
 
-```sh
+```shell
 sudo adduser cyril-linux www-data  
 sudo passwd cyril-linux
 ```
 
 Vérifier le groupe d'un utilisateur
 
-```sh
+```shell
 id cyril-linux
 ```
 
@@ -41,12 +41,12 @@ id cyril-linux
 
 Modifie les permissions d'un fichier (lecture et écriture)
 
-```sh
+```shell
 chmod 644
 ```
 
 Modifie les permissions d'un dossier (lecture / écriture / exécution)
 
-```sh
+```shell
 chmod 755
 ```

@@ -8,7 +8,7 @@ sidebar_position: 2
 
 > Note: Pensez à créer un fichier  `docker-compose.yml` et un `docker-compose.dev.yml` pour faciliter le passage en production.
 
-```sh
+```shell
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml build
 ```
 
@@ -16,7 +16,7 @@ docker-compose -f docker-compose.yml -f docker-compose.dev.yml build
 
 > Note: Pensez à créer un fichier  `docker-compose.yml` et un `docker-compose.dev.yml` pour faciliter le passage en production.
 
-```sh
+```shell
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml build &&
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
 ```
@@ -29,29 +29,29 @@ docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
 
 Dans le fichier `docker-compose.dev.yml` et dans votre <mark>serviceName</mark>, rajouté ces 2 lignes
 
-```sh
+```shell
 env_file:
     - .env
 ```
 
 ## Se connecter en shell
 
-```sh
+```shell
 sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml exec serviceName bash
 ```
 
 ## Afficher les logs du conteneur
 
-```sh
+```shell
 sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml logs -f serviceName
 ```
 
 ## Afficher la liste des conteneurs du projet
 
-```sh
+```shell
 cd /var/www/html/yourProject
 ```
 
-```sh
+```shell
 sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml ps
 ```

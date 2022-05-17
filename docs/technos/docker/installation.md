@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## docker-compose
 
-```sh
+```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/${docker-compose.version}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
@@ -14,13 +14,13 @@ sudo curl -L "https://github.com/docker/compose/releases/download/${docker-compo
 
 Ensuite, définissez les autorisations correctes de sorte que le docker-compose soit exécutable:
 
-```sh
+```shell
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 Vérifier que l'installation est réussis:
 
-```sh
+```shell
 docker-compose --version
 ```
 
