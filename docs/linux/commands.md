@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Groupe d'utilisateur
 
-CHanger le groupe d'utilisateur d'un dossier ou fichier
+Changer le groupe d'utilisateur d'un dossier ou fichier
 
 ```shell
 sudo chown -R [USERNAME]:[USERNAME] <path>

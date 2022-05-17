@@ -12,7 +12,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/${docker-compo
 
 > Note: `{docker-compose.version}` récupérer la dernière release disponible [ici](https://github.com/docker/compose/releases).
 
-Ensuite, définissez les autorisations correctes de sorte que le docker-compose soit exécutable:
+Ensuite, définissez les autorisations correctes de sorte que docker-compose soit exécutable:
 
 ```shell
 sudo chmod +x /usr/local/bin/docker-compose

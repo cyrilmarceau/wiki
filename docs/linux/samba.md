@@ -4,7 +4,7 @@ title: Samba
 sidebar_position: 2
 ---
 
-Samba est un outil qui permet de partager des dossier sur un même réseau local entre plusieurs poste
+Samba est un outil qui permet de partager des dossier sur un même réseau local entre plusieurs postes
 
 ## Installation
 
@@ -41,7 +41,7 @@ Redémarrer le serveur smb
 sudo service smbd restart
 ```
 
-Ajouter samba au firewall pour accepter le traffic
+Ajouter samba au firewall pour accepter le trafic
 
 ```shell
 sudo ufw allow samba
@@ -57,7 +57,7 @@ Sur linux:
 
 - Ouvrir le gestionnaire de fichier
 - Allez dans l'onglet `+ autre emplacement`
-- Dans connexion à un serveur renseigner la commande ci-dessous
+- Dans connexion à un serveur renseigné la commande ci-dessous
 
 Sur macOS:
 
@@ -75,4 +75,4 @@ Sur windows:
 smb://<your-local-ip>/
 ```
 
-> Note: L'ip local doit correspondre à l'ordinateur où samba est configurer !
+> Note: L'ip local doit correspondre à l'ordinateur où samba est configuré !

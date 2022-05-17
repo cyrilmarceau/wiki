@@ -14,8 +14,6 @@ docker-compose -f docker-compose.yml -f docker-compose.dev.yml build
 
 ## Start
 
-> Note: Pensez à créer un fichier  `docker-compose.yml` et un `docker-compose.dev.yml` pour faciliter le passage en production.
-
 ```shell
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml build &&
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
