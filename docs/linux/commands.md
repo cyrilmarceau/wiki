@@ -1,7 +1,7 @@
 ---
 id: commands
 title: Commandes
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ## Groupe d'utilisateur
